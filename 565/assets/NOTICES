@@ -43177,6 +43177,7 @@ wechat_camera_picker
    limitations under the License.
 --------------------------------------------------------------------------------
 win32
+win32_registry
 
 Copyright 2019, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
