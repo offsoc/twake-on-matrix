@@ -75,7 +75,7 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "assets/assets/info-logo.png": "a32bff2f9b9673573bb0d3ad4aa6a9f7",
 "assets/assets/sas-emoji.json": "b9d99fc6dda6a3250af57af969b4a02d",
 "assets/AssetManifest.json": "eac5ff11b913c41b9e6d0779351303d7",
-"assets/NOTICES": "22fce8d059a5b7c03744c4360de0103d",
+"assets/NOTICES": "a099404e4dacce3baf9bc22d1de2b809",
 "assets/AssetManifest.bin": "b8cd73cfffa9013a6b80fb4e002b48b3",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "699aa2e43adff25d0be51f7f427c15f5",
@@ -143,11 +143,11 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "splash/img/light-1x.png": "2ea9fd1216889717edb83a0c3f4c2a2f",
 "splash/img/dark-2x.png": "26f05b769dc261a6536fdb257fdb1883",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"index.html": "98925f6fdbb69f2cb76e49bf617e031e",
-"/": "98925f6fdbb69f2cb76e49bf617e031e",
+"index.html": "9ea7a89eda8c521a0aae673cc3fd3e34",
+"/": "9ea7a89eda8c521a0aae673cc3fd3e34",
 "favicon.png": "d6fd96e2d81a9853d4b0870fec11d291",
 "auth.html": "aaf3b82bee208cb193342ff1c7252919",
-"main.dart.js": "71a3d455b9bc7a4bda6186f648890eca",
+"main.dart.js": "befd3df3f1d6b901c7744673c3f7d9a1",
 "manifest.json": "cc4b6aa791018840b65fd0b0e325b201"};
 // The application shell files that are downloaded before a service worker can
 // start.
