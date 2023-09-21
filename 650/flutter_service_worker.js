@@ -122,7 +122,7 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "assets/fonts/Roboto/RobotoMono-Regular.ttf": "7e173cf37bb8221ac504ceab2acfb195",
 "assets/fonts/Roboto/Roboto-Bold.ttf": "9ece5b48963bbc96309220952cda38aa",
 "assets/fonts/Roboto/Roboto-Regular.ttf": "f36638c2135b71e5a623dca52b611173",
-"assets/fonts/MaterialIcons-Regular.otf": "d9bba780b1a6ee5563543f54ecaee5a0",
+"assets/fonts/MaterialIcons-Regular.otf": "14e4673d8593d2d6d092e0ab16383476",
 "assets/FontManifest.json": "b7b0a59c6c75a3b1ab32504828749613",
 "version.json": "d012b70068acb70133d90c0111da0179",
 "icons/Icon-192.png": "a82dc9b187a5d459bf9798775c6951a1",
@@ -146,11 +146,11 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "splash/img/light-1x.png": "2ea9fd1216889717edb83a0c3f4c2a2f",
 "splash/img/dark-2x.png": "26f05b769dc261a6536fdb257fdb1883",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"index.html": "d8061e342e1781e8cd5cddbc39334386",
-"/": "d8061e342e1781e8cd5cddbc39334386",
+"index.html": "9e8718141b88f8b8ccb4bcc0e1f04bd1",
+"/": "9e8718141b88f8b8ccb4bcc0e1f04bd1",
 "favicon.png": "d6fd96e2d81a9853d4b0870fec11d291",
 "auth.html": "aaf3b82bee208cb193342ff1c7252919",
-"main.dart.js": "105ede92152ea6ff2302ece39e4f66dd",
+"main.dart.js": "57893ad9e9eac5025f4558850b3cc195",
 "manifest.json": "cc4b6aa791018840b65fd0b0e325b201"};
 // The application shell files that are downloaded before a service worker can
 // start.
