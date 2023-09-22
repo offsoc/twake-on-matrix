@@ -78,7 +78,7 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "assets/assets/info-logo.png": "a32bff2f9b9673573bb0d3ad4aa6a9f7",
 "assets/assets/sas-emoji.json": "b9d99fc6dda6a3250af57af969b4a02d",
 "assets/AssetManifest.json": "3a504d248d8c46f063dd610068ffa92b",
-"assets/NOTICES": "3ba32b4c0e1eee8fefe15ebd1a3d3069",
+"assets/NOTICES": "34e43c2836df173f00304e89d30ee1eb",
 "assets/AssetManifest.bin": "95aa6393dff844a1bbde32a0af02d7df",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/packages/media_kit/assets/web/hls1.4.10.js": "1e36f4683b03af6692ad2542810f28bc",
@@ -147,11 +147,11 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "splash/img/light-1x.png": "2ea9fd1216889717edb83a0c3f4c2a2f",
 "splash/img/dark-2x.png": "26f05b769dc261a6536fdb257fdb1883",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"index.html": "4c383fd6242e1635e503c4574a352c6e",
-"/": "4c383fd6242e1635e503c4574a352c6e",
+"index.html": "d08061257a80c0f3a5de11b963249c54",
+"/": "d08061257a80c0f3a5de11b963249c54",
 "favicon.png": "d6fd96e2d81a9853d4b0870fec11d291",
 "auth.html": "aaf3b82bee208cb193342ff1c7252919",
-"main.dart.js": "652b5869f0ee0b247201e93e9f756244",
+"main.dart.js": "426479afc1773fac17234caa991d4804",
 "manifest.json": "cc4b6aa791018840b65fd0b0e325b201"};
 // The application shell files that are downloaded before a service worker can
 // start.
