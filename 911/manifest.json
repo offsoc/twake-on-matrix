@@ -1,6 +1,6 @@
 {
-    "name": "FluffyChat",
-    "short_name": "FluffyChat",
+    "name": "Twake Chat",
+    "short_name": "Twake Chat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
@@ -10,8 +10,8 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
+            "src": "icons/Icon-386.png",
+            "sizes": "386x386",
             "type": "image/png"
         },
         {
