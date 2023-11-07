@@ -10,8 +10,8 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Icon-386.png",
-            "sizes": "386x386",
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
