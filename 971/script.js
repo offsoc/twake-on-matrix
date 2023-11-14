@@ -8,10 +8,11 @@ function handleNotifications(title, body, icon, roomid) {
                 });
 
                 notification.onclick = function() {
-                    console.log('CLICKED ON NOTIFICATION!!!!');
+                    console.log('JsFunction::handleNotifications(): On click notification');
                     var host = window.location.host;
                     var redirectURL = 'http://' + host + '/#/rooms/' + roomid;
-                    window.location.href = window.location.href;
+                    window.parent.parent.focus();
+                    window.location.href = redirectURL;
                     notification.close();
                 };
             } else {
