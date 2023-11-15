@@ -9,9 +9,9 @@ function handleNotifications(title, body, icon, roomid) {
 
                 notification.onclick = function() {
                     console.log('JsFunction::handleNotifications(): On click notification');
-                    var host = window.location.host;
-                    var protocol = window.location.protocol;
-                    var redirectURL = protocol + '//' + host + '/#/rooms/' + roomid;
+                    var hrefSplit = window.location.href.split('/');
+                    var indexRooms = hrefSplit.indexOf('rooms');
+                    var redirectURL = hrefSplit.splice(0, indexRooms + 1).join('/') + '/' + roomid;
                     window.parent.parent.focus();
                     window.location.href = redirectURL;
                     notification.close();
