@@ -10,7 +10,8 @@ function handleNotifications(title, body, icon, roomid) {
                 notification.onclick = function() {
                     console.log('JsFunction::handleNotifications(): On click notification');
                     var host = window.location.host;
-                    var redirectURL = 'http://' + host + '/#/rooms/' + roomid;
+                    var protocol = window.location.protocol;
+                    var redirectURL = protocol + '//' + host + '/#/rooms/' + roomid;
                     window.parent.parent.focus();
                     window.location.href = redirectURL;
                     notification.close();
