@@ -7,6 +7,6 @@
   "hide_redacted_events": false,
   "hide_unknown_events": false,
   "issue_id": "1188",
-  "registration_url": "https://register.tom-dev.xyz/",
-  "twake_workplace_homeserver": "https://matrix.tom-dev.xyz/"
+  "registration_url": "https://register.domain/",
+  "twake_workplace_homeserver": "https://matrix.domain/"
 }
