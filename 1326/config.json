@@ -6,7 +6,5 @@
   "render_html": true,
   "hide_redacted_events": false,
   "hide_unknown_events": false,
-  "issue_id": "1326",
-  "registration_url": "https://example.com/",
-  "twake_workplace_homeserver": "https://example.com/"
+  "issue_id": "1326"
 }
