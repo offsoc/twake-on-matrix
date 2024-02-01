@@ -79,7 +79,7 @@ const RESOURCES = {"assets/assets/images/ic_twake_image_logo.svg": "b86701bda053
 "assets/assets/twake.svg": "8c765d6c60c4e632d8d961370bac8a1a",
 "assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
 "assets/AssetManifest.json": "7e73ca5ca347ee55349acb0920fd0523",
-"assets/NOTICES": "33bef989e76999026421fe0bd452a669",
+"assets/NOTICES": "8df1f7b43a6d79ad4a4ffa78e471b51d",
 "assets/AssetManifest.bin": "c88bb273307e245e380eee59428094ac",
 "assets/shaders/ink_sparkle.frag": "4096b5150bac93c41cbc9b45276bd90f",
 "assets/AssetManifest.bin.json": "012501d0e54e9e2f76a9370ab7bbd14b",
@@ -677,8 +677,8 @@ const RESOURCES = {"assets/assets/images/ic_twake_image_logo.svg": "b86701bda053
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "manifest.json": "f3c8e18d38224185c23bbca2dc0e3f4a",
-"index.html": "77ddf5da2c03fddec5122861f3aa6dfe",
-"/": "77ddf5da2c03fddec5122861f3aa6dfe",
+"index.html": "e7aaa02948c8ac551d26a350fe183017",
+"/": "e7aaa02948c8ac551d26a350fe183017",
 "canvaskit/chromium/canvaskit.wasm": "143af6ff368f9cd21c863bfa4274c406",
 "canvaskit/chromium/canvaskit.js": "0ae8bbcc58155679458a0f7a00f66873",
 "canvaskit/skwasm.wasm": "2fc47c0a0c3c7af8542b601634fe9674",
@@ -709,7 +709,7 @@ const RESOURCES = {"assets/assets/images/ic_twake_image_logo.svg": "b86701bda053
 "splash/img/dark-4x.png": "5b25686015223b6a26cae134abb12117",
 "splash/img/branding-1x.png": "2063bc3bb018dc3679fa741c6111ae3e",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"main.dart.js": "942ece9da3e0656fe4a02d2592085aa8",
+"main.dart.js": "7066ce9ebd25b94e5390cb67398283f2",
 "flutter.js": "7d69e653079438abfbb24b82a655b0a4",
 "version.json": "245fe814b90d067bc9cbc80c26dbd3ac"};
 // The application shell files that are downloaded before a service worker can
