@@ -678,8 +678,8 @@ const RESOURCES = {"assets/assets/images/ic_twake_image_logo.svg": "b86701bda053
 "assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "manifest.json": "f3c8e18d38224185c23bbca2dc0e3f4a",
-"index.html": "85b5f25b93fe9f7d30f22aa2ccc75fef",
-"/": "85b5f25b93fe9f7d30f22aa2ccc75fef",
+"index.html": "0af58061069f9f8889f076f0875fcb8e",
+"/": "0af58061069f9f8889f076f0875fcb8e",
 "canvaskit/chromium/canvaskit.wasm": "143af6ff368f9cd21c863bfa4274c406",
 "canvaskit/chromium/canvaskit.js": "0ae8bbcc58155679458a0f7a00f66873",
 "canvaskit/skwasm.wasm": "2fc47c0a0c3c7af8542b601634fe9674",
@@ -710,7 +710,7 @@ const RESOURCES = {"assets/assets/images/ic_twake_image_logo.svg": "b86701bda053
 "splash/img/dark-4x.png": "5b25686015223b6a26cae134abb12117",
 "splash/img/branding-1x.png": "2063bc3bb018dc3679fa741c6111ae3e",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"main.dart.js": "4f8555c28f06d2b7f058af2e44c9d8a4",
+"main.dart.js": "491e6159a3874840f160638b8557fb9a",
 "flutter.js": "7d69e653079438abfbb24b82a655b0a4",
 "version.json": "245fe814b90d067bc9cbc80c26dbd3ac"};
 // The application shell files that are downloaded before a service worker can
