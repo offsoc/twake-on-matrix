@@ -3,14 +3,15 @@
 <p>Authentication is complete. If this does not happen automatically, please close the window.</p>
 <script>
   function postAuthenticationMessage() {
-    console.log('href:' + window.location.search);
     const urlParams = new URLSearchParams(window.location.search);
     const loginToken = urlParams.get('loginToken');
+    const redirectUrl = window.sessionStorage.getItem('redirectUrl');
+    window.sessionStorage.removeItem('redirectUrl');
     if (loginToken === null) {
-      window.location.href = window.location.origin + '/home';
+      window.location.href = redirectUrl;
       return;
     }
-    window.location.href = window.location.origin + '/home' + '?loginToken=' + loginToken;
+    window.location.href = redirectUrl + '/?loginToken=' + loginToken;
   }
 
   postAuthenticationMessage();
