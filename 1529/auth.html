@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <title>Authentication complete</title>
-<p>Authentication is complete. If this does not happen automatically, please close the window.</p>
+<p>Authentication is complete. If this page does not navigate automatically, please <a href="#" id="manualRedirectLink">click here</a> to continue.</p>
 <script>
   function postAuthenticationMessage() {
     const urlParams = new URLSearchParams(window.location.search);
     const loginToken = urlParams.get('loginToken');
     const redirectUrl = window.localStorage.getItem('redirectUrl');
     if (loginToken === null) {
-      window.location.href = redirectUrl;
-      html.window.localStorage.remove('redirectUrl');
+      updateManualRedirectLink(redirectUrl); // Call this function to update the link for manual redirection
+      // window.location.href = redirectUrl;
       return;
     }
-    window.location.href = redirectUrl + '/?loginToken=' + loginToken;
+    const finalRedirectUrl = redirectUrl + '/?loginToken=' + loginToken;
+    updateManualRedirectLink(finalRedirectUrl); // Update the link in case of automatic failure
+    // window.location.href = finalRedirectUrl;
+  }
+
+  function updateManualRedirectLink(url) {
+    document.getElementById('manualRedirectLink').href = url;
   }
 
   postAuthenticationMessage();
