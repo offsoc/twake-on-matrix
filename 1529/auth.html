@@ -7,13 +7,13 @@
     const loginToken = urlParams.get('loginToken');
     const redirectUrl = window.localStorage.getItem('redirectUrl');
     if (loginToken === null) {
-      updateManualRedirectLink(redirectUrl); // Call this function to update the link for manual redirection
-      // window.location.href = redirectUrl;
+      updateManualRedirectLink(redirectUrl);
+      window.location.href = redirectUrl;
       return;
     }
     const finalRedirectUrl = redirectUrl + '/?loginToken=' + loginToken;
-    updateManualRedirectLink(finalRedirectUrl); // Update the link in case of automatic failure
-    // window.location.href = finalRedirectUrl;
+    updateManualRedirectLink(finalRedirectUrl);
+    window.location.href = finalRedirectUrl;
   }
 
   function updateManualRedirectLink(url) {
