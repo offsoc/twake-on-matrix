@@ -5,10 +5,10 @@
   function postAuthenticationMessage() {
     const urlParams = new URLSearchParams(window.location.search);
     const loginToken = urlParams.get('loginToken');
-    const redirectUrl = window.sessionStorage.getItem('redirectUrl');
-    window.sessionStorage.removeItem('redirectUrl');
+    const redirectUrl = window.localStorage.getItem('redirectUrl');
     if (loginToken === null) {
       window.location.href = redirectUrl;
+      html.window.localStorage.remove('redirectUrl');
       return;
     }
     window.location.href = redirectUrl + '/?loginToken=' + loginToken;
