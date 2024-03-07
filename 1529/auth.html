@@ -6,16 +6,16 @@
     const urlParams = new URLSearchParams(window.location.search);
     const loginToken = urlParams.get('loginToken');
     const homeserver = urlParams.get('homeserver');
-    let urlWithoutQueryParams = window.location.protocol + "//" + window.location.host + window.location.pathname;
-    const redirectUrl = urlWithoutQueryParams + '/#/onAuthRedirect';
+    console.log('link' + window.location.href);
+    let redirectUrl = window.location.href.replace('auth.html', 'onAuthRedirect');
+    let redirectUrll = redirectUrl.replace('/web', '/#');
     if (loginToken === null) {
-      updateManualRedirectLink(redirectUrl);
-      window.location.href = redirectUrl;
+      updateManualRedirectLink(redirectUrll);
+      window.location.href = redirectUrll;
       return;
     }
-    const finalRedirectUrl = redirectUrl + '/?loginToken=' + loginToken + '&homeserver=' + homeserver;
-    updateManualRedirectLink(finalRedirectUrl);
-    window.location.href = finalRedirectUrl;
+    updateManualRedirectLink(redirectUrll);
+    window.location.href = redirectUrll;
   }
 
   function updateManualRedirectLink(url) {
