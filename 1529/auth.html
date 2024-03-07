@@ -5,13 +5,15 @@
   function postAuthenticationMessage() {
     const urlParams = new URLSearchParams(window.location.search);
     const loginToken = urlParams.get('loginToken');
-    const redirectUrl = window.origin + '/#/onAuthRedirect';
+    const homeserver = urlParams.get('homeserver');
+    let urlWithoutQueryParams = window.location.protocol + "//" + window.location.host + window.location.pathname;
+    const redirectUrl = urlWithoutQueryParams + '/#/onAuthRedirect';
     if (loginToken === null) {
       updateManualRedirectLink(redirectUrl);
       window.location.href = redirectUrl;
       return;
     }
-    const finalRedirectUrl = redirectUrl + '/?loginToken=' + loginToken;
+    const finalRedirectUrl = redirectUrl + '/?loginToken=' + loginToken + '&homeserver=' + homeserver;
     updateManualRedirectLink(finalRedirectUrl);
     window.location.href = finalRedirectUrl;
   }
