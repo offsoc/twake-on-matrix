@@ -20,8 +20,8 @@ const RESOURCES = {"splash/img/light-4x.png": "5b25686015223b6a26cae134abb12117"
 "splash/img/dark-3x.png": "6603f28f31551efbdf5edbb5f0418c19",
 "splash/img/light-1x.png": "22dfe22f0f85ed9cbc3786af33f886a0",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"index.html": "1e3c21855fe9a1fa7ce4b199f0a9d061",
-"/": "1e3c21855fe9a1fa7ce4b199f0a9d061",
+"index.html": "f2ac20e8bb4e3efdf3ee42fb9f80359e",
+"/": "f2ac20e8bb4e3efdf3ee42fb9f80359e",
 "canvaskit/canvaskit.js": "eb8797020acdbdf96a12fb0405582c1b",
 "canvaskit/skwasm.js": "87063acf45c5e1ab9565dcf06b0c18b8",
 "canvaskit/skwasm.wasm": "2fc47c0a0c3c7af8542b601634fe9674",
@@ -714,14 +714,14 @@ const RESOURCES = {"splash/img/light-4x.png": "5b25686015223b6a26cae134abb12117"
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/AssetManifest.json": "d61ed5ddbb3cf201b7acd30250d72e11",
 "style.css": "4d1f54fea6fddad3e588e47e3fa65268",
-"version.json": "dde25accddb4bef59fb3cbc9ff71c62c",
+"version.json": "66f01065a8a11feba989ecf1ed0aa89b",
 "icons/Icon-512.png": "7a90a5fbf6971e6f5dbbe91da44cdb97",
 "icons/Icon-192.png": "db01db96eabb3551ac6861c53778900a",
 "manifest.json": "f3c8e18d38224185c23bbca2dc0e3f4a",
 "flutter.js": "7d69e653079438abfbb24b82a655b0a4",
 "auth.html": "753913b429e0217a2c870bdafd63d063",
 "script.js": "187dde765b2fc2efe647200435c4ddd8",
-"main.dart.js": "bfa61f512c1aa82b85c25618f3e66ebe"};
+"main.dart.js": "e06640c165cc12952072ffb4ed9b0054"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
