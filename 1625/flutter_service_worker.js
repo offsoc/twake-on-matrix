@@ -20,8 +20,8 @@ const RESOURCES = {"splash/img/light-4x.png": "5b25686015223b6a26cae134abb12117"
 "splash/img/dark-3x.png": "6603f28f31551efbdf5edbb5f0418c19",
 "splash/img/light-1x.png": "22dfe22f0f85ed9cbc3786af33f886a0",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
-"index.html": "7d49ffd1345dac61eeb5b4aa934a0e19",
-"/": "7d49ffd1345dac61eeb5b4aa934a0e19",
+"index.html": "db9e3e2e76064c0f593ee7db6e951c95",
+"/": "db9e3e2e76064c0f593ee7db6e951c95",
 "canvaskit/canvaskit.js": "eb8797020acdbdf96a12fb0405582c1b",
 "canvaskit/skwasm.js": "87063acf45c5e1ab9565dcf06b0c18b8",
 "canvaskit/skwasm.wasm": "2fc47c0a0c3c7af8542b601634fe9674",
@@ -38,7 +38,7 @@ const RESOURCES = {"splash/img/light-4x.png": "5b25686015223b6a26cae134abb12117"
 "assets/configurations/icons/ic_twake_visio.svg": "a329132e68fdf1249bf2bd6de97d6c41",
 "assets/configurations/icons/ic_twake_drive.svg": "f9b2e222ffb9b9219a7597ce1c75aaa1",
 "assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
-"assets/fonts/MaterialIcons-Regular.otf": "d03c072f966316e1fad5aacfa13df14c",
+"assets/fonts/MaterialIcons-Regular.otf": "748e380968ff7b42195408309c247610",
 "assets/AssetManifest.bin.json": "3205a8760386e8cd33a7d8ec73c37c84",
 "assets/assets/share.png": "6d8b7e3179bea3d8b7ea1287594289bd",
 "assets/assets/logo.svg": "d0ff6bf2eff7aff1a1e55c3c35b6907a",
@@ -721,7 +721,7 @@ const RESOURCES = {"splash/img/light-4x.png": "5b25686015223b6a26cae134abb12117"
 "flutter.js": "7d69e653079438abfbb24b82a655b0a4",
 "auth.html": "753913b429e0217a2c870bdafd63d063",
 "script.js": "187dde765b2fc2efe647200435c4ddd8",
-"main.dart.js": "fa138a64c5ac20cbd5b436cdfb7b89fe"};
+"main.dart.js": "4995bee26910d101c8b1b50c24586b18"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
