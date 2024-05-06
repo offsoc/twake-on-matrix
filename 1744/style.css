@@ -1,0 +1,104 @@
+html {
+  height: 100%
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #1c1b1f;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.contain {
+  display:block;
+  width:100%; height:100%;
+  object-fit: contain;
+}
+
+.stretch {
+  display:block;
+  width:100%; height:100%;
+}
+
+.cover {
+  display:block;
+  width:100%; height:100%;
+  object-fit: cover;
+}
+
+.bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash .logo {
+  width: 10vw; /* default size */
+  margin-bottom: 2.986vh;
+}
+
+.splash .appName {
+  width: 42vw;
+}
+
+/* High resolution (2x) */
+@media only screen and (min-resolution: 192dpi),
+ only screen and (min-resolution: 2dppx) {
+  .splash .logo {
+    width: 20vw;
+  }
+  .splash .appName {
+    width: 52vw;
+  }
+}
+
+/* High resolution (3x) */
+@media only screen and (min-resolution: 288dpi),
+ only screen and (min-resolution: 3dppx) {
+  .splash .logo {
+    width: 30vw;
+  }
+  .splash .appName {
+    width: 62vw;
+  }
+}
+
+/* High resolution (4x) */
+@media only screen and (min-resolution: 384dpi),
+ only screen and (min-resolution: 4dppx) {
+  .splash .logo {
+    width: 40vw;
+  }
+  .splash .appName {
+    width: 72vw;
+  }
+}
