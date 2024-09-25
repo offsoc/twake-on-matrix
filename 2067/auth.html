@@ -18,7 +18,7 @@
 
   function getOnAuthRedirectUrl() {
     let redirectUrl = window.location.href.replace('/auth.html', '/#/onAuthRedirect');
-    return redirectUrl;
+    return redirectUrl.replace('/web', '');
   }
 
   /**
