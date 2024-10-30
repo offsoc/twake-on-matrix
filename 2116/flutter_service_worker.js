@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
-"main.dart.js": "2bf1a071462cbf51c3f15200897aebee",
+"main.dart.js": "1510fe6c40c655b4c3962d6bcbd34bab",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/img/light-3x.png": "467acc6e3ca77682bfad4bce091bd0b6",
 "splash/img/branding-3x.png": "a8f173d5d7f1f15be6a3f8cb4f00a9bd",
@@ -33,7 +33,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "assets/configurations/icons/ic_twake_mail.svg": "1734d2c8d930abd57ebba9c158506714",
 "assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
 "assets/AssetManifest.bin": "89b1a8ee9649eb6857dc3647c779d921",
-"assets/fonts/MaterialIcons-Regular.otf": "62bfba626eda3d8b3e06e1e1a8833a2f",
+"assets/fonts/MaterialIcons-Regular.otf": "8996a0e44d0b037c47f9d6ba7c80eed0",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Regular.ttf": "7ec92adfa4fe03eb8e9bfb60813df1fa",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Italic.ttf": "ac3b1882325add4f148f05db8cafd401",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
@@ -721,8 +721,8 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "assets/AssetManifest.json": "89aa57f3ec11184c0c6c7813d5d78627",
 "assets/AssetManifest.bin.json": "9b2c54650ffe7d627422bbe62c9499bc",
 "auth.html": "753913b429e0217a2c870bdafd63d063",
-"index.html": "cec91adc6dcb255da6ecd708dd9052bb",
-"/": "cec91adc6dcb255da6ecd708dd9052bb",
+"index.html": "332c885877771055180869c8ca5c49b5",
+"/": "332c885877771055180869c8ca5c49b5",
 "manifest.json": "f3c8e18d38224185c23bbca2dc0e3f4a",
 "canvaskit/canvaskit.js": "5fda3f1af7d6433d53b24083e2219fa0",
 "canvaskit/canvaskit.js.symbols": "48c83a2ce573d9692e8d970e288d75f7",
@@ -739,7 +739,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "favicon.png": "2e69080e35d3ca42d9e9f78474df7d20",
 "style.css": "f70d0365df109f5c620005d49af5d7c0",
 "version.json": "0aedde7196ee626ff14e856eef42e691",
-"flutter_bootstrap.js": "afe7708e37ce7634d25adef0a4513447"};
+"flutter_bootstrap.js": "38a2e226e0cb93b854b568a7f2433059"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
