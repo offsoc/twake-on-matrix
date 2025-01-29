@@ -13,6 +13,7 @@
 prime
 .direnv/
 config.json
+.env
 
 #generated file
 *.g.dart
