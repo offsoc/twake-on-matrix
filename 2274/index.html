@@ -39,10 +39,6 @@
       name="viewport"
     />
     <script src="splash/splash.js"></script>
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = '"3583504533"';
-    </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
   </head>
@@ -89,21 +85,34 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
 }
 _flutter.buildConfig = {"engineRevision":"b8800d88be4866db1b15f8b954ab2573bba9960f","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
-        
-        _flutter.loader.load({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
-          onEntrypointLoaded: function (engineInitializer) {
-            engineInitializer
-              .initializeEngine({
-                useColorEmoji: true,
-              })
-              .then(function (appRunner) {
-                appRunner.runApp();
+
+        if ('serviceWorker' in navigator) {
+          navigator
+            .serviceWorker
+            .getRegistrations()
+            .then(async function(registrations) {
+              try {
+                await Promise.all(registrations.map(function(registration) {
+                  return registration.unregister();
+                }));
+              } catch (error) {
+                console.log('[Twake Chat] Error unregistering service worker: ', error);
+              }
+              _flutter.loader.load({
+                onEntrypointLoaded: async function(engineInitializer) {
+                  const appRunner = await engineInitializer.initializeEngine({useColorEmoji: true});
+                  await appRunner.runApp();
+                }
               });
-          },
-        });
+            });
+        } else {
+          _flutter.loader.load({
+            onEntrypointLoaded: async function (engineInitializer) {
+              const appRunner = await engineInitializer.initializeEngine({useColorEmoji: true});
+              await appRunner.runApp();
+            },
+          });
+        }
       });
     </script>
     <script src="assets/assets/js/package/olm.js"></script>
