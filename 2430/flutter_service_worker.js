@@ -18,7 +18,7 @@ const RESOURCES = {"auth.html": "753913b429e0217a2c870bdafd63d063",
 "splash/lottie-chat.json": "70290062de97961a74f8b75b8c52508d",
 "splash/style.css": "aef88eeb741da0bd13a5cc5b49d90598",
 "manifest.json": "f3c8e18d38224185c23bbca2dc0e3f4a",
-"main.dart.js": "b3c66578f80fb966782b04cfb0f4e358",
+"main.dart.js": "368cca2160aad0808e2f6c6fa3cedc0b",
 "style.css": "f70d0365df109f5c620005d49af5d7c0",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "index.html": "e8fae3fde25278d85fe0ca0fa472094d",
@@ -727,7 +727,7 @@ const RESOURCES = {"auth.html": "753913b429e0217a2c870bdafd63d063",
 "icons/Icon-512.png": "8cb72d8ec7a7be72007869f008b36bfa",
 "icons/Icon-192.png": "c4a581a01d1e71f9a111bdb9daace08d",
 "script.js": "96daaf53d6e724bb2168139b2f515f93",
-"flutter_bootstrap.js": "0c94d897e38430b462a2ebacefa26d83",
+"flutter_bootstrap.js": "36d4561e51a13d9c9e95ae58ea5328c5",
 "version.json": "a7377132b6cf98f696286e9c213ff449"};
 // The application shell files that are downloaded before a service worker can
 // start.
