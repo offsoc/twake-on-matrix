@@ -39,33 +39,38 @@ class AssignRolesView extends StatelessWidget {
       ),
 
       /// Implement later
-      // floatingActionButton: Container(
-      //   padding: const EdgeInsets.symmetric(
-      //     horizontal: 24.0,
-      //     vertical: 12.0,
-      //   ),
-      //   decoration: BoxDecoration(
-      //     color: LinagoraSysColors.material().secondaryContainer,
-      //     borderRadius: BorderRadius.circular(100),
-      //   ),
-      //   child: Row(
-      //     mainAxisSize: MainAxisSize.min,
-      //     children: [
-      //       Icon(
-      //         Icons.person_add_outlined,
-      //         size: 18.0,
-      //         color: LinagoraSysColors.material().onSecondaryContainer,
-      //       ),
-      //       const SizedBox(width: 8.0),
-      //       Text(
-      //         L10n.of(context)!.addAdminsOrModerators,
-      //         style: Theme.of(context).textTheme.labelLarge?.copyWith(
-      //               color: LinagoraSysColors.material().onSecondaryContainer,
-      //             ),
-      //       ),
-      //     ],
-      //   ),
-      // ),
+      floatingActionButton: TwakeInkWell(
+        onTap: () {
+          controller.goToAssignRolesPicker();
+        },
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 24.0,
+            vertical: 12.0,
+          ),
+          decoration: BoxDecoration(
+            color: LinagoraSysColors.material().secondaryContainer,
+            borderRadius: BorderRadius.circular(100),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(
+                Icons.person_add_outlined,
+                size: 18.0,
+                color: LinagoraSysColors.material().onSecondaryContainer,
+              ),
+              const SizedBox(width: 8.0),
+              Text(
+                L10n.of(context)!.addAdminsOrModerators,
+                style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      color: LinagoraSysColors.material().onSecondaryContainer,
+                    ),
+              ),
+            ],
+          ),
+        ),
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [

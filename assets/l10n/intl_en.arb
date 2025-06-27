@@ -3305,5 +3305,12 @@
     "placeholders": {
       "number": {}
     }
+  },
+  "memberOfTheGroup": "MEMBERS OF THE GROUP ({number})",
+  "@memberOfTheGroup": {
+    "type": "text",
+    "placeholders": {
+      "number": {}
+    }
   }
 }
